@@ -4,11 +4,11 @@ timecounter est un plugin JQuery qui permet d'afficher l'equivalent d'un timesta
 
 Utilisation
 -----------
-<span class='counter' timestamp='172795' ></span><br>
-<span class='counter' timestamp='1' ></span>
-<script type='text/javascript'>
-	$('.counter').timecounter();
-</script>
++ <span class='counter' timestamp='172795' ></span><br>
++ <span class='counter' timestamp='1' ></span>
++ <script type='text/javascript'>
++ 	$('.counter').timecounter();
++ </script>
 
 Resultat
 --------

@@ -1,3 +1,6 @@
+Auteur : Cheikh Sidya CAMARA (scicasoft)
+mail : scicasoft@gmail.com
+
 timecounter
 ===========
 timecounter est un plugin JQuery qui permet d'afficher l'equivalent d'un timestamp en francais comme le compteur de temps de facebook.

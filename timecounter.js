@@ -14,10 +14,8 @@
 			var params=$.extend(defauts, options);
 
 			return this.each(function() {
-				var e = $(this);
-				
-				setInterval(function(){
-				
+
+				function recharger(e) {
 					var secs = parseInt(e.attr('dsesc'))+1;
 					
 					var texte = "";
@@ -46,10 +44,17 @@
 					e.attr('dsesc', secs);
 					
 					e.html(texte);
-					
+				}
+
+				var e = $(this);
+				recharger(e);
+				
+				setInterval(function(){
+					recharger(e);
 				},params.intervalle);
 			});
 		}
 		
 	});
 })(jQuery);
+
